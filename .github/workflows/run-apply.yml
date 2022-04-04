@@ -1,0 +1,12 @@
+name: Run Script
+
+on: push
+
+jobs:
+  apply:
+    name: Apply
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run myscript Script
+        run: sh ./myscript.sh
+        shell: bash
