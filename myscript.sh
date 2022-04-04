@@ -1,5 +1,5 @@
 #!/bin/bash
 echo "Hello World"
 terraform init
-terraform plan
+terraform plan -out=./output.txt -input=false
 terraform apply --auto-approve
