@@ -19,7 +19,7 @@ resource "aws_s3_bucket" "verop1"{
     tags = {
         Name = "my bucket_5"
         Environment = "Dev_5"
-        Test = "3"
+        Test = "5"
     }
 }
 
