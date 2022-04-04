@@ -7,8 +7,8 @@ provider "aws" {
 resource "aws_s3_bucket" "verop1"{
     bucket = "verop4"
     tags = {
-        Name = "my bucket4"
-        Environment = "Dev4"
+        Name = "my bucket5"
+        Environment = "Dev5"
     }
 }
 
