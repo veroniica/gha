@@ -23,3 +23,17 @@ resource "aws_s3_bucket_acl" "example" {
     bucket = aws_s3_bucket.verop1.id
     acl = "private"
 }
+
+resource "aws_s3_bucket" "verop_delete"{
+    bucket = "verop_delete"
+    tags = {
+        Name = "delete1"
+        Environment = "delete1"
+        Test = "1"
+    }
+}
+
+resource "aws_s3_bucket_acl" "acl_example" {
+    bucket = aws_s3_bucket.verop_delete.id
+    acl = "private"
+}
