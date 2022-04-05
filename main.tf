@@ -25,7 +25,7 @@ resource "aws_s3_bucket_acl" "example" {
 }
 
 resource "aws_s3_bucket" "verop_delete"{
-    bucket = "verop_delete"
+    bucket = "verop-delete"
     tags = {
         Name = "delete1"
         Environment = "delete1"
