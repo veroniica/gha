@@ -1,7 +1,7 @@
 provider "aws" {
     region = "us-east-1"
-    access_key = "AKIAWHSZZ44Q2H5NSHE3"
-    secret_key = "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"
+    access_key = "XXX"
+    secret_key = "XXX"
 }
 
 terraform {
@@ -9,8 +9,8 @@ terraform {
     bucket = "terraform-verop"
     key    = "route53.tfstate"
     region = "us-east-1"
-    access_key = "AKIAWHSZZ44Q2H5NSHE3"
-    secret_key = "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"
+    access_key = "XXX"
+    secret_key = "XXX"
   }
 }
 
